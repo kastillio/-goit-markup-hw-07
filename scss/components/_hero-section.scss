@@ -1,0 +1,62 @@
+/* Герой */
+
+.hero {
+    text-align: center;
+    background-color: var(--bgc-hero-title);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bgchero.jpg);
+    background-color: #C4C4C4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.hero__title {
+    width: 696px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    color: var(--white-bgc);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* Головна кнопка */
+.hero__btn {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px ;
+    min-width: 216px;
+    transition:background-color var(--transition-dur-n-fuc) ;
+    background-color:var(--Blue-color) ;
+    color: var(--white-bgc);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--bgc-btn-act);
+        color: var(--white-bgc);
+    }
+
+}
+

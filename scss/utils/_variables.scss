@@ -1,0 +1,31 @@
+:root {
+    --title-color :#212121 ;
+    --text-color:#757575 ;
+    --logo-text: #000000 ;
+    --white-bgc: #FFFFFF ;
+    --bgc-hero-title: #2F303A ;
+    --bgc-color:#F5F5F5 ;
+    --bgc-comands : #F5F4FA;
+    --Blue-color: #2196F3;
+    --bgc-btn-act:#188CE8 ;
+    --color-adrsf:  rgba(255, 255, 255, 0.6);
+    --portfolio-overlay:rgba(33, 150, 243, 0.9);
+    --transition-dur-n-fuc: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --backdrop-color: rgba(0, 0, 0, 0.2);
+    --icon-btn-border: rgba(0, 0, 0, 0.1);
+    --input-border-color:rgba(33, 33, 33, 0.2);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space:nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+    clip-path: inset(50%);
+    clip: rect(0 0 0 0);
+   
+  }
