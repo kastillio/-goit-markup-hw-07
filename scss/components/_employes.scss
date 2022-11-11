@@ -52,14 +52,12 @@
     
     .socials {
         display: flex;
-        justify-content: center;
-        gap: 10px;
+        justify-content: center;        
     }
 
     .socials__item {
         width: 44px;
         height: 44px;
-        margin-right: 10px;
 
         &:last-child{
             margin-right: 0;

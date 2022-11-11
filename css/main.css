@@ -600,8 +600,7 @@ img {
 
 .socials__item {
   width: 44px;
-  height: 44px;
-  margin-right: 10px;
+  height: 44px;  
 }
 .socials__item:last-child {
   margin-right: 0;
@@ -884,6 +883,7 @@ img {
   letter-spacing: 0.01em;
   outline: none;
   color: rgba(117, 117, 117, 0.5);
+  transition: border-color var(--transition-dur-n-fuc);
 }
 .modal-form__comment:focus {
   border-color: var(--Blue-color);
