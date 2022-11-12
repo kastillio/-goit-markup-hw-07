@@ -54,12 +54,13 @@
     letter-spacing: 0.02em;
 
     &:hover ,&:focus  {
-        color:var(--Blue-color)
+        fill:var(--Blue-color)
+        
        }
 }
 
 .nav-menu__link--current {
-    color: var(--Blue-color);
+    fill: var(--Blue-color);
     position: relative;
     
     &::after {
@@ -88,7 +89,7 @@
 }
 
 
-.contakts-list__link {
+.contacts-list__svg  {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -101,7 +102,7 @@
     letter-spacing: 0.02em;
 
     &:hover ,&:focus {
-        color: var(--Blue-color);
+        fill: var(--Blue-color);
         }
     
 
@@ -111,7 +112,9 @@
  .contacts-list__svg {
     display: inline-block;
     margin-right: 10px;
-    fill: var(--text-color);
+    fill: currentColor;
+    
+    
      
  }
  

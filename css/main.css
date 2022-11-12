@@ -406,8 +406,8 @@ img {
 .contacts-list__svg {
   display: inline-block;
   margin-right: 10px;
-  fill: var(--text-color);
 }
+
 
 /* Герой */
 .hero {
